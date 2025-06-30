@@ -1,86 +1,91 @@
 # Data_Analyst_Project_Supermart_Sales
-# 🛒 Supermart Grocery Sales Prediction - Retail Analytics Project
+# 🛒 Supermart Grocery Sales Prediction - Data Analyst Project
 
-This project analyzes a fictional retail dataset from a grocery delivery app and builds a machine learning model to predict sales using linear regression.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DhavalEswar9391/Data_Analyst_Project_Supermart_Sales/blob/main/Supermart_Sales_Prediction_by_DhavalEswar.ipynb)
+
+This project explores retail grocery sales data from a fictional supermarket application and builds a machine learning model to predict sales using linear regression.
+
+---
 
 ## 📌 Project Overview
 
-The objective of this project is to:
-- Understand sales patterns across categories, cities, and time
-- Perform data preprocessing and feature engineering
-- Visualize sales trends
-- Build and evaluate a linear regression model to predict future sales
+- Perform exploratory data analysis (EDA) on sales data
+- Visualize key trends across time, categories, and regions
+- Prepare features and apply label encoding & scaling
+- Train a Linear Regression model to predict sales
+- Evaluate model using R² score and Mean Squared Error
+- Visualize Actual vs Predicted sales performance
 
 ---
 
 ## 📁 Dataset
 
-- **Name**: Supermart Grocery Sales - Retail Analytics Dataset
-- **Source**: Provided via project description (Fictional Dataset)
-- **Content**: Order ID, Customer Name, Category, Sub Category, City, Region, State, Order Date, Sales, Discount, Profit, Month, Year
+- **Name**: Supermart Grocery Sales - Retail Analytics
+- **Source**: Fictional dataset (provided in PDF instructions)
+- **Contains**:
+  - Order ID, Customer Name, Category, Sub Category, City, Region, State
+  - Order Date, Sales, Discount, Profit, Month, Year
 
 ---
 
-## 📊 Technologies & Tools
+## ⚙️ Technologies Used
 
-- **Language**: Python
-- **Libraries**: 
+- **Python 3**
+- **Google Colab**
+- **Libraries**:
   - `pandas`, `numpy`
-  - `matplotlib`, `seaborn` for visualization
-  - `scikit-learn` for ML modeling
+  - `matplotlib`, `seaborn`
+  - `scikit-learn`
 
 ---
 
-## 🚀 Steps Performed
+## 📊 Key Steps
 
 1. **Data Cleaning**
-   - Removed duplicates and missing values
-   - Converted order dates to datetime format
-   - Extracted month, year, day
+   - Removed duplicates, missing values
+   - Parsed dates, extracted month, year, day
 
-2. **EDA (Exploratory Data Analysis)**
-   - Sales by category, time, and region
-   - Correlation analysis via heatmap
+2. **Exploratory Data Analysis**
+   - Sales by category and over time
+   - Correlation analysis using heatmap
 
-3. **Feature Engineering**
-   - Encoded categorical columns
-   - Extracted time-based features
+3. **Modeling**
+   - Train-test split
+   - Standardization
+   - Linear Regression
 
-4. **Model Building**
-   - Linear Regression using `scikit-learn`
-   - Feature scaling with `StandardScaler`
-   - Evaluation using Mean Squared Error and R² Score
-
-5. **Visualization**
-   - Actual vs Predicted sales
+4. **Evaluation**
+   - Metrics: R² score, Mean Squared Error
+   - Prediction visualization
 
 ---
 
-## 📈 Results
+## ✅ Results
 
-- ✅ Model trained using Linear Regression
-- ✅ Evaluation Metrics:
-  - **R² Score**: _0.82_ _(example)_
-  - **MSE**: _1758.26_ _(example)_
+- Linear Regression Model trained
+- R² score ≈ `0.82` (example)
+- Good fit on test data
 
 ---
 
-## 📌 Future Work
+## 🚀 Future Enhancements
 
-- Try advanced models like Random Forest, XGBoost
-- Build a Streamlit app or Power BI dashboard
-- Add hyperparameter tuning and cross-validation
+- Try advanced models like Random Forest or XGBoost
+- Build a Streamlit web app or Power BI dashboard
+- Add cross-validation and feature tuning
 
 ---
 
 ## 🙋‍♂️ Author
 
-**Ankit Roy**  
-*Aspiring Data Analyst | Python & ML Enthusiast*  
-[LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com)
+**Dhaval Eswar**  
+*Aspiring Data Analyst | Python Enthusiast*  
+[GitHub Profile](https://github.com/DhavalEswar9391)
 
 ---
 
 ## 📎 License
 
-This project is for educational purposes only. Dataset is fictional.
+This project is intended for educational purposes.  
+The dataset is fictional and should not be used in production.
+
